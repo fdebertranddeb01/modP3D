@@ -5,6 +5,7 @@ lit un fichier et l'execute comme s'il était lu sur la console
 
 repris de : http://pydoc.net/Python/coverage/3.3/coverage.execfile/
 
+!!!! CE FICHIER N'EST PAS ENCORE AU POINT !!!!!!!!!!!
 !!!! POUR L'INSTANT, UTILISER PLUTOT simpleRunFile  !!!!!!!!!!
 
 @author: francois
