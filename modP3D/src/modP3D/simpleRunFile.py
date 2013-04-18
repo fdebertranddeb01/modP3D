@@ -1,7 +1,7 @@
 '''
 Created on 8 avr. 2013
 
-lit un fichier et l'execute
+lit un fichier et l'execute.
 
 inspiré de : http://stackoverflow.com/questions/13617395/real-alternatives-to-execfile-in-python3-3
 et du pydev_debug fourni par Witold Jaworski comme compagnon de son livre internet :  pydev-blender-en.pdf
