@@ -39,6 +39,8 @@ obj devient le seul objet selectionné
 def selectOnly(obj):
     deselectAll()
     obj.select = True
+    bpy.context.object = obj
+    bpy.context.selected_objects = [obj]
     
 ''' 
 supprime l'objet

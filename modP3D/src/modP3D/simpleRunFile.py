@@ -11,9 +11,7 @@ et du pydev_debug fourni par Witold Jaworski comme compagnon de son livre intern
 '''
 
 # MAINPATH = "/media/KeyBeuvron/beuvron/cours/modP3D/programmes/pyBlenderLinuxWorkspace/modP3D/src/"
-MAINPATH = "/media/KeyBeuvron/beuvron/cours/modP3D/programmes/GitRepos/modP3D/modP3D/src/modP3D/"
-# SCRIPT = "modP3D/testAll.py"  
-SCRIPT = "modP3D/utilsBlender/transformations.py"  
+MAINPATH = "/media/KeyBeuvron/beuvron/cours/modP3D/programmes/GitRepos/modP3D/modP3D/src/"
 
 import sys
 
@@ -28,7 +26,4 @@ def runAbsolutePath(filepath):
     file = open(filepath, 'rb')
     exec(compile(file.read(), filepath, 'exec'), global_namespace)
     file.close()
-    
-if __name__ == "__main__":
-    runRel(SCRIPT)
 

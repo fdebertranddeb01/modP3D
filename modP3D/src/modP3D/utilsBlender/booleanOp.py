@@ -18,7 +18,7 @@ def booleanOp(o1,o2,booleanType):
     setActif(o1)
     bpy.ops.object.modifier_add(type='BOOLEAN')
     modi = bpy.types.BooleanModifier
-    modi = o1.modifiers[0]
+    modi = o1.modifiers[-1]  # le modifier le plus récent est en fin de liste
     print("----------------------------------coucou-----------------------------------------------")
     modi.operation = booleanType
     modi.object = o2
